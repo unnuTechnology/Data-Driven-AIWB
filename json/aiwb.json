@@ -1,0 +1,97 @@
+{
+    "name": "AIWB",
+    "description": "专为广大中小学电教打造的班级希沃/鸿合等一体机/数字白板/班班通一站式软件推荐清单和实用知识手册，助你在新学期快速上手班级一体机新玩法！",
+    "app_areas": {
+        "whiteboard": {
+            "name": "屏幕批注与白板软件",
+            "items": {
+                "Ink Canvas": {
+                    "name": "Ink Canvas",
+                    "logo": "https://github.com/WXRIW/Ink-Canvas/raw/master/Ink%20Canvas/Resources/InkCanvas.png?raw=true",
+                    "description": "Ink Canvas 画板是一款轻量级画板软件，基于 WPF/C#，其针对希沃一体机进行了特别优化，与预装的“希沃白板 5”软件相比，启动速度大幅度提升（提升 5-10 倍），系统资源占用更小，使用体验更佳。\n\n学校从传统投影仪换成了希沃白板，由于自带的“希沃白板”软件太难用，也没有同类好用的画板软件，所以开发了该画板。（IC 已死，有事也别烧纸，~~等重制版吧~~ **向下翻翻，去用icp吧**）",
+                    "comments": {
+                        "Dubi906w": "某种意义上来说，如果你想要一个纯粹的屏幕画板，IC 可以是你的选择之一，同时它的诞生，也才有了后面 ICA 和 ICC 的诞生。如果要在教室里面使用不是很合适。"
+                    }
+                },
+                "Ink Canvas Plus": {
+                    "name": "Ink Canvas Plus",
+                    "logo": "https://github.com/clover-yan/Ink-Canvas-Plus/raw/master/Ink%20Canvas/Resources/InkCanvas.png?raw=true",
+                    "description": "Ink Canvas Plus 是一款由 Clover Yan 维护、复刻自 WXRIW/Ink Canvas 的 Windows 画板应用，旨在优化各方面的使用体验，并尽可能保留原版 Ink Canvas 的操作体验。并且提供了更为简洁直观的用户界面，并修复了诸多原版 Ink Canvas 的问题，易于上手，非常适合课堂教学和个人笔记等场景。无论你是学生、教师还是专业人士，都能轻松使用这款应用进行绘图和笔记。",
+                    "comments": {
+                        "2,2,3-三甲基戊烷": "俗话说的好：“（对于开源屏幕批注软件）要稳定inkeys，要好用icp。”而其中的icp便是原版ic的延续，继承了原版ic简洁易用的特点。真心希望后续发展越来越好！",
+                        "Makitoid": "作为批注软件还是很不错的，但是作为白板软件还是差一点。希望持续的优化！"
+                    }
+                },
+                "Ink Canvas Artistry": {
+                    "name": "Ink Canvas Artistry",
+                    "logo": "https://github.com/InkCanvas/Ink-Canvas-Artistry/raw/master/Images/Ink%20Canvas%20Artistry.png",
+                    "description": "Ink Canvas 的优化版本，添加了更多功能（比如自动收纳、自动查杀、荧光笔、图片插入等功能），并优化了使用体验，使其更适合课堂授课使用。目前已确认永久停更。",
+                    "comments": {
+                        "Douxiba": "非常推荐，除掉 ICC，是唯一用着比较舒服的屏幕批注软件，自动收纳有点小问题（2024 年 9 月 21 日，希沃白板 5 和希沃系软件的 Popup 弹窗会出 Bug），图片插入还是测试版，不过依旧还是好用！",
+                        "Makitoid": "ICA几乎解决了希沃白板的所有痛点，可以说是希沃白板的平替了。同样是用C＃开发的，为何差别这么大？但是，以下情况不建议使用ICA：①班里老师电脑水平普遍较差；②老师上课严重依赖板中板，ICA这方面优化不好。",
+                        "connect": "ICA的似我觉得是最可惜的，IC系里我最喜欢的就是这款，UI简洁，功能丰富，特别是恰到的好处丝滑，白板页是类似希沃白板的界面，工具板块可以打开希沃视频展台，对于教师上手的学习成本相比于其他的版本是几乎最低的，以及ppt联动页也是类似希沃ppt助手，只可惜停更了，令我惋惜。",
+                        "2,2,3-三甲基戊烷": "虽然ICA在Aiwb里面它目前还在🥇的位置，但是我这个Aiwb maintainer认为它并不算比较好用的一款屏幕批注软件，甚至还比不上目前的ICC-CE。为什么呢？：①论绘制性能比不上基于C++的智绘教Inkeys；②论功能及其各方面的易用性不如ICC-CE；③ICA目前已经永久停更，不会再有功能更新与bug修复；④ICA总是会出现一些墨迹异常成为直线的情况。"
+                    }
+                },
+                "智绘教Inkeys": {
+                    "name": "智绘教Inkeys",
+                    "logo": "https://raw.githubusercontent.com/Alan-CRL/Inkeys/main/GithubRes/logo.png",
+                    "description": "将你的创意随心所欲地书写在屏幕的任意角落。智绘教Inkeys 拥有丝滑流畅的高性能画笔、丰富强大的功能，以及众多贴心小设计，全面提升你的效率与使用体验。软件基于 C++20 编写，专为 Windows 平台打造。",
+                    "comments": {
+                        "Douxiba": "用下来总体体验是不错的，自带了屏幕冻结这个好功能，还有桌面画板悬浮窗拦截，以及各种强制置顶，多虚拟桌面 Pin，多显示器适配等，这些功能都很不错，甚至有些都是被 ICC 给借鉴过去了的功能，比较推荐使用。最近出了内测版本，用 Fluent Design System 重构了设置页面，非常好看（有需要可以加入他们的 QQ 群了解更多，2024 年 12 月 4 日更新）"
+                    }
+                },
+                "ICC-CE": {
+                    "name": "ICC-CE",
+                    "logo": "https://github.com/InkCanvasForClass/community/raw/main/icc.png",
+                    "description": "InkCanvasForClass 的社区版本，支持 Windows 平台。它基于 icc-0610fix 开发，具有流畅的绘图体验和丰富的功能。该应用界面简洁直观，支持多种画笔工具和图层管理，能够满足多种场景下的屏幕绘图需求，适合教学、会议、设计等多种用途。\n\nICC-CE 项目近期创建，开发者正在积极开发和优化中。虽然功能还在不断完善，但已经展现出很大的潜力，未来可能会提供更多高级功能。",
+                    "comments": {
+                        "2,2,3-三甲基戊烷": "~~太好了，是ICC社区版，我们有救了！~~ 众所周知，InkCanvasForClass 在不久之前就停更了，而这个社区版则完美弥补了停更所造成的空白，也是IC系列为数不多的活跃项目。~~ICC石山还是太多了~~，目前这个社区版还有诸多大大小小的的bug亟待解决和部分操作逻辑的优化（~~历史遗留问题是吧……~~），请诸位遇到bug尽量发个issue，好让开发者定位问题，谢谢。"
+                    }
+                },
+                "InkCanvasForClass": {
+                    "name": "InkCanvasForClass",
+                    "logo": "",
+                    "description": "InkCanvasForClass的readme仓库。",
+                    "comments": {}
+                },
+                "ICC-RE": {
+                    "name": "ICC-RE",
+                    "logo": "",
+                    "description": "基于icc-0610fix进行二次开发的一款icc系软件。",
+                    "comments": {}
+                },
+                "ppInk": {
+                    "name": "ppInk",
+                    "logo": "",
+                    "description": "ppInk is a user-friendly on-screen annotation software for Windows, compatible with Mouse use, touchscreen or drawing tablet(also with pressure).\n\n源自 gInk 它提供了许多新功能，这些功能自由地从其他应用程序（如 Epic Pen）中汲取灵感，使其更易于使用，功能更强大。ppInk/gInk 的设计秉承了简洁的理念，确保在演示过程中不会分散演示者或观众的注意力. ppInk 允许您选择不同的笔进行绘图，每支笔都有可配置的属性，而不必调整颜色、透明度和笔尖宽度、笔触等单个设置。",
+                    "comments": {
+                        "Douxiba": "这个项目应该算是目前来说，Windows 平台下，开源桌面批注软件里面最强大的一个了 ，当然缺点也很多，比如 UI 非常丑，其次是墨迹过多会造成卡顿。而且他的 UI 并不适合触摸屏使用，所以我并不推荐在学校的一体机上面使用 ppInk，不过抛开国内教室的特色条件来说，ppInk 作为一个桌面绘图软件，已经完全可用，甚至算够好用了。"
+                    }
+                },
+                "Ink Canvas Better": {
+                    "name": "Ink Canvas Better",
+                    "logo": "https://github.com/BaiYang2238/Ink-Canvas-Better/raw/master/Images/Ink%20Canvas%20Better.png",
+                    "description": "Ink Canvas Better 是一款基于 InkCanvas/Ink-Canvas-Artistry 开发的 Windows 画板应用，使用 WPF/C# 构建。它在原版 Ink Canvas 的基础上进行了优化和改进，移除了一些非核心功能（如点名工具和计时器），专注于提供更流畅的绘图体验和更简洁的界面。该软件支持多种绘图工具和图层管理功能，适合教学、会议和设计等多种用途。",
+                    "comments": {
+                        "2,2,3-三甲基戊烷": "~~蕾姆了，IC系也是后继有人上了~~Ink Canvas Better原来是作者使用IC及其他分支软件时发现一些需要的功能存在缺失而开发的此分支，期待项目后续的发展"
+                    }
+                },
+                "ShowWrite视频展台": {
+                    "name": "ShowWrite视频展台",
+                    "logo": "https://github.com/wwcrdrvf6u/ShowWrite/raw/main/logo-SW.png",
+                    "description": "ShowWrite 是一款为视频展台、直播教学等场景设计的软件，支持视频展台功能（如文档展台、实物展台等）、屏幕批注、画面录制等功能，能够实现希沃展台与希沃系统的无缝对接，提升教学互动体验。",
+                    "comments": {
+                        "2,2,3-三甲基戊烷": "之前试过py版的，效果不是很理想，最近这款软件正在用C#重构，感兴趣的可以去他们QQ群插个眼。我也有点打算在班上电脑实装试一下，到时候看一下C#版的效果怎么样。"
+                    }
+                },
+                "Kazuha万叶演示助手": {
+                    "name": "Kazuha万叶演示助手",
+                    "logo": "./images/kazuha-icon.svg",
+                    "description": "一款用于演示软件上的批注工具。",
+                    "comments": {}
+                }
+            }
+        }
+    }
+}
